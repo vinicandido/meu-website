@@ -82,7 +82,7 @@ const Hero = () => {
             Soluções sob medida para pequenos, médios e grandes negócios. Foco total em performance, SEO e manutenção contínua. Nada de templates genéricos.
           </p>
           <div className="pt-6">
-            <a href="#contato" className="inline-block px-8 py-4 bg-white text-darker font-semibold text-sm tracking-widest uppercase hover:bg-accent hover:text-white transition-all transform hover:-translate-y-1">
+            <a href="https://wa.me/5516996183232" className="inline-block px-8 py-4 bg-white text-darker font-semibold text-sm tracking-widest uppercase hover:bg-accent hover:text-white transition-all transform hover:-translate-y-1">
               Quero o meu site/sistema
             </a>
           </div>
@@ -140,7 +140,7 @@ const Portfolio = () => {
         </div>
 
         <div className="text-center mt-12">
-          <a href="#contato" className="inline-flex items-center gap-2 px-8 py-3 border border-white/30 text-white hover:border-accent hover:text-accent transition-all uppercase text-sm tracking-wide">
+          <a href="https://wa.me/5516996183232" className="inline-flex items-center gap-2 px-8 py-3 border border-white/30 text-white hover:border-accent hover:text-accent transition-all uppercase text-sm tracking-wide">
             Quero negociar um projeto
           </a>
         </div>
@@ -221,7 +221,7 @@ const Services = () => {
             <p className="text-secondary mb-8">
               Transforme visitantes em clientes com uma estrutura pensada para vender.
             </p>
-            <a href="#contato" className="inline-flex items-center gap-2 px-8 py-3 bg-accent text-darker font-bold uppercase text-sm tracking-wide hover:bg-white transition-colors rounded">
+            <a href="https://wa.me/5516996183232" className="inline-flex items-center gap-2 px-8 py-3 bg-accent text-darker font-bold uppercase text-sm tracking-wide hover:bg-white transition-colors rounded">
               👉 Quero um site profissional
             </a>
           </div>
@@ -270,7 +270,7 @@ const SocialProof = () => {
               <li className="flex items-center gap-2">- Ideal para negócios que precisam escalar sem depender de soluções genéricas.</li>
             </ul>
             <div>
-               <a href="#contato" className="inline-flex items-center gap-2 px-6 py-3 border border-accent text-accent hover:bg-accent hover:text-darker transition-colors rounded uppercase text-sm font-bold">
+               <a href="https://wa.me/5516996183232" className="inline-flex items-center gap-2 px-6 py-3 border border-accent text-accent hover:bg-accent hover:text-darker transition-colors rounded uppercase text-sm font-bold">
                 👉 Falar sobre um sistema
               </a>
             </div>
@@ -310,7 +310,7 @@ const Testimonials = () => {
         </div>
 
         <div className="mt-12">
-          <a href="#contato" className="inline-block px-8 py-3 border border-white text-white hover:bg-white hover:text-darker transition-all uppercase text-sm tracking-wide">
+          <a href="https://wa.me/5516996183232" className="inline-block px-8 py-3 border border-white text-white hover:bg-white hover:text-darker transition-all uppercase text-sm tracking-wide">
             Falar com o especialista
           </a>
         </div>
@@ -361,7 +361,7 @@ const TechStack = () => {
           </div>
 
           <div className="text-center mt-12">
-             <a href="#contato" className="inline-block px-8 py-3 border border-secondary text-secondary hover:border-white hover:text-white transition-all uppercase text-sm tracking-wide">
+             <a href="https://wa.me/5516996183232" className="inline-block px-8 py-3 border border-secondary text-secondary hover:border-white hover:text-white transition-all uppercase text-sm tracking-wide">
                 Contratar Serviços de DevOps
               </a>
           </div>
