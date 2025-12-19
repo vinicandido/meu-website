@@ -61,7 +61,7 @@ const Hero = () => {
   // IMPORTANTE: Substitua a URL abaixo pelo caminho da sua foto local ou URL hospedada.
   // Exemplo: "/assets/minha-foto.png" ou envie a imagem para o seu projeto.
   // Como sou uma IA, não consigo acessar diretamente o arquivo anexo, mas o layout está pronto para recebê-lo.
-  const profileImage = "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1000&auto=format&fit=crop";
+  const profileImage = "./vinicius.png"; // Substitua pelo caminho correto da sua imagem
 
   return (
     <section className="min-h-screen flex items-center justify-center pt-24 lg:pt-20 px-6 bg-dark relative overflow-hidden">
@@ -115,10 +115,10 @@ const Hero = () => {
 // 3. Portfolio Section (Carousel Replacement -> Grid for better UX on static landing)
 const Portfolio = () => {
   const projects = [
-    { id: 1, title: "E-commerce Premium", img: "https://picsum.photos/600/400?random=1" },
-    { id: 2, title: "Portal Corporativo", img: "https://picsum.photos/600/400?random=2" },
-    { id: 3, title: "SaaS Dashboard", img: "https://picsum.photos/600/400?random=3" },
-    { id: 4, title: "Landing Page Evento", img: "https://picsum.photos/600/400?random=4" },
+    { id: 1, title: "Lading Page Saúde e Bem Estar", img: "./harb.gif" },
+    { id: 2, title: "Site Odontovax", img: "./odontovax.gif" },
+    { id: 3, title: "SaaS Dashboard", img: "./saas.png" },
+    { id: 4, title: "Model", img: "./model.gif" },
   ];
 
   return (
@@ -380,9 +380,10 @@ const About = () => {
         <div className="w-20 h-1 bg-accent mx-auto"></div>
         
         <p className="text-secondary leading-relaxed text-lg">
-          Sou desenvolvedor de sistemas com foco em soluções web funcionais e objetivas. 
-          Trabalho como freelancer ajudando pequenos e médios negócios a terem presença digital profissional 
-          sem depender de plataformas engessadas.
+          Meu nome é Vinicius e atuo na área de tecnologia há mais de 4 anos. Sou desenvolvedor de sistemas com foco em soluções web funcionais e objetivas. 
+          Trabalho como freelancer ajudando pequenos, médios e grandes negócios a terem presença digital profissional 
+          sem depender de plataformas engessadas. Também atuo com DevOps, ajudando empresas a escalarem suas infraestruturas na nuvem.
+          Entre em contato comigo para discutirmos seu projeto!
         </p>
         
         <p className="text-white text-xl font-light italic border-l-2 border-accent pl-6 py-2 inline-block text-left bg-white/5 pr-4 rounded-r">
@@ -390,10 +391,10 @@ const About = () => {
         </p>
 
         <div className="flex justify-center gap-6 pt-4">
-          <a href="#" className="flex items-center gap-2 text-secondary hover:text-white transition-colors">
+          <a href="https://github.com/vinicandido" className="flex items-center gap-2 text-secondary hover:text-white transition-colors">
             <Github size={20} /> GitHub
           </a>
-          <a href="#" className="flex items-center gap-2 text-secondary hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/vinicius-jesus-candido/" className="flex items-center gap-2 text-secondary hover:text-white transition-colors">
             <Linkedin size={20} /> LinkedIn
           </a>
         </div>
@@ -445,9 +446,9 @@ const Footer = () => {
       <div className="container mx-auto px-6 space-y-6">
         <div className="space-y-2">
            <h3 className="text-white font-serif text-xl mb-4">Contato</h3>
-           <p className="text-secondary hover:text-white transition-colors cursor-pointer">email@exemplo.com</p>
-           <p className="text-secondary hover:text-white transition-colors cursor-pointer">telefone/whatsapp</p>
-           <p className="text-gray-500 text-xs mt-4">Horário de funcionamento: 9h às 19horas</p>
+           <p className="text-secondary hover:text-white transition-colors cursor-pointer">viniciustheodoro.candido@gmail.com</p>
+           <p className="text-secondary hover:text-white transition-colors cursor-pointer">telefone/whatsapp - 16 99618-3232</p>
+  
         </div>
         
         <div className="pt-8 text-gray-600 text-xs uppercase tracking-widest">
